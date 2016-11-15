@@ -12,6 +12,3 @@ In particular, it holds the necessary files to get Ariane running under Vagrant.
 ### Who do I talk to? ###
 
 Susan Allen sallen@eos.ubc.ca
-
-* Repo owner or admin
-* Other community or team contact
