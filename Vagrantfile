@@ -11,6 +11,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "miniproj3" do |miniproj3|
     # Ubuntu 14.04 LTS
     miniproj3.vm.box = "ubuntu/trusty64"
+    nowcast.vm.provider "virtualbox" do |v|
+      v.memory = 1024
+    end
   end
 
   # Provisioning
